@@ -1,0 +1,22 @@
+.projects-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.projects-head__title {
+  margin-top: 0.65rem;
+  margin-bottom: 0;
+  font-size: clamp(1.6rem, 4vw, 2rem);
+}
+
+.crumb {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+}
+
+.crumb:hover {
+  color: var(--cream);
+}
