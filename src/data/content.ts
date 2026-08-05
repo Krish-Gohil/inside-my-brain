@@ -72,6 +72,7 @@ export const projects: Project[] = [
     desc: 'Real-time TTC navigation with PostGIS proximity search and live ETAs on Leaflet.',
     impact: '9,317+ stops · sub-second queries · 60s ETA polling',
     accent: '#6EB5E0',
+    image: '/projects/transit-maps.jpg',
     github: 'https://github.com/Krish-Gohil/transit-maps',
     live: '#',
     stack: 'React · Vite · Zustand · Leaflet · Express · PostgreSQL · PostGIS',
