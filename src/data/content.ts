@@ -7,6 +7,7 @@ export interface Project {
   desc: string
   impact: string
   accent: string
+  image?: string
   github?: string
   live: string
   stack: string
@@ -51,6 +52,7 @@ export const projects: Project[] = [
     desc: 'Cloud code execution with Monaco, Redis jobs, and locked-down Docker runtimes.',
     impact: '200 TPS · 50+ concurrent scripts · 5 languages',
     accent: '#7DCFB6',
+    image: '/projects/online-ide.png',
     github: 'https://github.com/krish-Gohil/onlineIde',
     live: '#',
     stack: 'Next.js · Express · Prisma · PostgreSQL · Redis · Docker · JWT',

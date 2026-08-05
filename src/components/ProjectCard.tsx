@@ -3,6 +3,14 @@ import type { Project } from '../data/content'
 import './ProjectCard.css'
 
 function Thumb({ project }: { project: Project }) {
+  if (project.image) {
+    return (
+      <div className="project-thumb project-thumb--photo">
+        <img src={project.image} alt="" className="project-thumb__img" />
+      </div>
+    )
+  }
+
   const steps = project.pipeline.slice(0, 4)
   return (
     <div className="project-thumb" style={{ ['--accent' as string]: project.accent }}>

@@ -24,6 +24,14 @@ export function ProjectDetail() {
       <h1 className="project-detail__title">{project.name}</h1>
       <p className="project-detail__lead">{project.desc}</p>
 
+      {project.image && (
+        <img
+          src={project.image}
+          alt={`${project.name} screenshot`}
+          className="project-detail__shot"
+        />
+      )}
+
       <div className="project-detail__meta">
         <span>{project.year}</span>
         <span className="sep">|</span>
