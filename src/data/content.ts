@@ -54,7 +54,7 @@ export const projects: Project[] = [
     accent: '#7DCFB6',
     image: '/projects/online-ide.png',
     github: 'https://github.com/krish-Gohil/onlineIde',
-    live: '#',
+    live: 'https://online-ide-five-psi.vercel.app',
     stack: 'Next.js · Express · Prisma · PostgreSQL · Redis · Docker · JWT',
     highlights: [
       'Async Redis queue decouples API from Docker workers',
